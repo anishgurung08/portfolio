@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Anish Portfolio</title>
+  </head>
+  <body>
+    <!-- header-top -->
+    <div class="container-fluid icon-top py-2 px-3">
+      <div class="row">
+        <div class="col d-flex justify-content-between align-items-baseline">
+          <div class="top-icons">
+            <a href="#" class="mx-2"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="mx-2"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <h5 class="text-capitalize">all Rights reserved</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- header -->
+    <header id="header">
+      <nav id="navbar" class="navbar navbar-expand-lg">
+        <a href="#" class="navbar-brand px-2 py-0">coder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#myNavbar"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="#header" class="nav-link m-2 text-capitalize nav-active"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link m-2 text-capitalize">skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link m-2 text-capitalize">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link m-2 text-capitalize"
+                >projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#posts" class="nav-link m-2 text-capitalize">posts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reviews" class="nav-link m-2 text-capitalize"
+                >reviews</a
+              >
+            </li>
+          </ul>
+
+          <form>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Here...."
+              />
+              <div class="input-group-append">
+                <button class="btn search-btn" type="button">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+
+      <!-- slider -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col no-padding">
+            <div
+              id="demo-slider"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <!-- slide show -->
+              <div class="carousel-inner">
+                <div class="carousel-item item-1 active">
+                  <div class="carousel-caption mb-5 text-right">
+                    <h1 class="display-3 text-capitalize mb-2 text-light">
+                      i am developer
+                    </h1>
+                    <a
+                      href="#"
+                      class="btn btn-lg mb-5 text-uppercase banner-btn"
+                      >my work</a
+                    >
+                  </div>
+                </div>
+                <!--end of item-->
+
+                <div class="carousel-item item-2">
+                  <div class="carousel-caption mb-5 text-center">
+                    <h1 class="display-3 text-capitalize mb-2 text-light">
+                      i am designer
+                    </h1>
+                    <a
+                      href="#"
+                      class="btn btn-lg mb-5 text-uppercase banner-btn"
+                      >my work</a
+                    >
+                  </div>
+                </div>
+                <!--end of item-->
+
+                <div class="carousel-item item-3">
+                  <div class="carousel-caption mb-5 text-left">
+                    <h1 class="display-3 text-capitalize mb-2 text-light">
+                      i am artist
+                    </h1>
+                    <a
+                      href="#"
+                      class="btn btn-lg mb-5 text-uppercase banner-btn"
+                      >my work</a
+                    >
+                  </div>
+                </div>
+                <!--end of item-->
+              </div>
+              <!-- controls-->
+              <a
+                href="#demo-slider"
+                class="carousel-control-prev"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+
+              <a
+                href="#demo-slider"
+                class="carousel-control-next"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <!-- end of carousel -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- Skills section -->
+    <section id="skills" class="pb-5">
+      <div class="container">
+        <!-- tittle -->
+        <div class="row title mb-5">
+          <div class="col text-center">
+            <h1 class="text-uppercase">my Skills</h1>
+            <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+            <a href="#" class="mb-0">
+              <i class="far fa-check-square"></i>
+            </a>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <!-- end of tittle -->
+
+        <div class="row">
+          <!-- item -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-html5"></i></span>
+              </div>
+              <div class="col-6">
+                <h3 class="text-uppercase">html</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem, nam. Ipsa distinctio ipsum delectus magnam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-css3"></i></span>
+              </div>
+              <div class="col-6">
+                <h3 class="text-uppercase">css</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem, nam. Ipsa distinctio ipsum delectus magnam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-js"></i></span>
+              </div>
+              <div class="col-6">
+                <h3 class="text-uppercase">javascript</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem, nam. Ipsa distinctio ipsum delectus magnam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-node-js"></i></span>
+              </div>
+              <div class="col-6">
+                <h3 class="text-uppercase">node.js</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem, nam. Ipsa distinctio ipsum delectus magnam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-angular"></i></span>
+              </div>
+              <div class="col-6">
+                <h3 class="text-uppercase">angular</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem, nam. Ipsa distinctio ipsum delectus magnam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-react"></i></span>
+              </div>
+              <div class="col-6">
+                <h3 class="text-uppercase">react</h3>
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem, nam. Ipsa distinctio ipsum delectus magnam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of skills section-->
+
+    <!-- about me -->
+    <section id="about" class="pb-5">
+      <!-- video modal -->
+      <article
+        id="modal-filler"
+        class="d-flex align-items-center justify-content-center"
+      >
+        <!-- Modal -->
+        <a href="#">
+          <i
+            class="fas fa-play-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          ></i>
+        </a>
+      </article>
+      <!-- end of video modal -->
+
+      <div class="container my-5">
+        <!-- tittle -->
+        <div class="row title my-5">
+          <div class="col text-center">
+            <h1 class="text-uppercase">about me</h1>
+            <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+            <a href="#" class="mb-0">
+              <i class="fas fa-globe"></i>
+            </a>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <!-- end of tittle -->
+
+        <div class="row">
+          <div
+            class="
+              col-md-6
+              about-progress
+              mb-5
+              d-flex
+              flex-column
+              justify-content-center
+            "
+          >
+            <div class="progress-bars">
+              <!-- bar -->
+              <div class="bar my-3">
+                <h5
+                  class="
+                    text-light text-uppercase
+                    d-flex
+                    justify-content-between
+                  "
+                >
+                  html
+                  <span>70%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 70%"
+                  >
+                    70%
+                  </div>
+                </div>
+              </div>
+
+              <!-- bar -->
+              <div class="bar my-3">
+                <h5
+                  class="
+                    text-light text-uppercase
+                    d-flex
+                    justify-content-between
+                  "
+                >
+                  css
+                  <span>80%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                  >
+                    80%
+                  </div>
+                </div>
+              </div>
+
+              <!-- bar -->
+              <div class="bar my-3">
+                <h5
+                  class="
+                    text-light text-uppercase
+                    d-flex
+                    justify-content-between
+                  "
+                >
+                  javascript
+                  <span>90%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 90%"
+                  >
+                    90%
+                  </div>
+                </div>
+              </div>
+
+              <!-- bar -->
+              <div class="bar my-3">
+                <h5
+                  class="
+                    text-light text-uppercase
+                    d-flex
+                    justify-content-between
+                  "
+                >
+                  angular
+                  <span>100%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 100%"
+                  >
+                    100%
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 py-5 about-text text-center">
+            <h2 class="text-uppercase">
+              always learning and pushing boundries
+            </h2>
+            <p class="lead text-light">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+              odio deserunt architecto accusamus illo soluta ex ipsa
+              exercitationem vero et.
+            </p>
+            <a
+              href="#"
+              class="btn btn-lg d-block w-75 text-uppercase mb-5 mx-auto"
+              >download resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of about me  -->
+
+    <!-- project section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <!-- tittle -->
+        <div class="row title mb-5">
+          <div class="col text-center">
+            <h1 class="text-uppercase">projects</h1>
+            <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+            <a href="#" class="mb-0">
+              <i class="fas fa-camera"></i>
+            </a>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <!-- end of tittle -->
+        <!-- button group -->
+        <div class="row">
+          <div class="col text-center">
+            <div
+              class="
+                btn-group btn-group-lg
+                mb-5
+                button-group
+                filter-button-group
+              "
+              role="group"
+            >
+              <button type="button" class="btn text-uppercase" data-filter="*">
+                All
+              </button>
+              <button
+                type="button"
+                class="btn text-uppercase"
+                data-filter=".coffee"
+              >
+                coffee
+              </button>
+              <button
+                type="button"
+                class="btn text-uppercase"
+                data-filter=".tea"
+              >
+                tea
+              </button>
+              <button
+                type="button"
+                class="btn text-uppercase"
+                data-filter=".water"
+              >
+                water
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- end of button group -->
+
+        <!-- images-row -->
+        <div class="row grid projects">
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 coffee">
+            <article class="img-container">
+              <img
+                src="img/projects-coffee-1.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 tea">
+            <article class="img-container">
+              <img
+                src="img/projects-tea-1.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 water">
+            <article class="img-container">
+              <img
+                src="img/projects-water-1.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 coffee">
+            <article class="img-container">
+              <img
+                src="img/projects-coffee-2.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              /><a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 tea">
+            <article class="img-container">
+              <img
+                src="img/projects-tea-2.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 water">
+            <article class="img-container">
+              <img
+                src="img/projects-water-2.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 coffee">
+            <article class="img-container">
+              <img
+                src="img/projects-coffee-3.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 tea">
+            <article class="img-container">
+              <img
+                src="img/projects-tea-3.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+
+          <!-- project -->
+          <div class="col-sm-g col-md-4 my-3 water">
+            <article class="img-container">
+              <img
+                src="img/projects-water-3.jpeg"
+                alt=""
+                class="img-fluid rounded project-image"
+              />
+              <a href="#" class="search-link">
+                <i class="fas fa-search"></i>
+              </a>
+            </article>
+          </div>
+          <!-- end of projects -->
+        </div>
+        <!-- end of images-row -->
+      </div>
+    </section>
+    <!-- end of project section -->
+
+    <!-- Current projects -->
+    <section id="current-project" class="py-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 py-5 about-text text-center align-self-center">
+            <h2 class="text-uppercase">current project</h2>
+            <p class="lead text-light">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              sequi pariatur dolore nisi repellat commodi!
+            </p>
+            <a
+              href="#"
+              class="btn btn-lg d-block w-75 mx-auto text-uppercase mb-5"
+              >learn more</a
+            >
+          </div>
+
+          <div class="col-md-6 current-project-photo my-5">
+            <img
+              src="img/projects-coffee-1.jpeg"
+              alt=""
+              class="current-project current-project-1 img-thumbnail"
+            />
+            <img
+              src="img/projects-coffee-2.jpeg"
+              alt=""
+              class="current-project current-project-2 img-thumbnail"
+            />
+            <img
+              src="img/projects-tea-1.jpeg"
+              alt=""
+              class="current-project current-project-3 img-thumbnail"
+            />
+            <img
+              src="img/projects-tea-2.jpeg"
+              alt=""
+              class="current-project current-project-4 img-thumbnail"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of current projects -->
+
+    <!-- post section -->
+    <section id="posts" class="py-5 px-4">
+      <div class="container">
+        <!-- title -->
+        <div class="row title mb-5">
+          <div class="col text-center">
+            <h1 class="text-uppercase">lastest posts</h1>
+            <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+            <a href="#" class="mb-0">
+              <i class="fas fa-edit"></i>
+            </a>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <!-- end of title -->
+      </div>
+
+      <div class="row">
+        <!-- post -->
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card">
+            <img
+              src="img/projects-coffee-1.jpeg"
+              class="card-img-top"
+              alt="coffee"
+            />
+            <h6 class="corner-text mb-0 px-3">New</h6>
+            <h1 class="my-2 text-capitalize">post name</h1>
+            <p class="lead text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum id
+              ab, voluptas facere odio quibusdam.
+            </p>
+            <hr class="mb-0" />
+            <div class="card-footer d-flex justify-content-between px-0">
+              <a href="#" class="text-capitalize post-link h4">read more...</a>
+              <h4>02/22/2018</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of post -->
+
+        <!-- post -->
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card">
+            <img
+              src="img/projects-tea-1.jpeg"
+              class="card-img-top"
+              alt="coffee"
+            />
+            <h6 class="corner-text mb-0 px-3">New</h6>
+            <h1 class="my-2 text-capitalize">post name</h1>
+            <p class="lead text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum id
+              ab, voluptas facere odio quibusdam.
+            </p>
+            <hr class="mb-0" />
+            <div class="card-footer d-flex justify-content-between px-0">
+              <a href="#" class="text-capitalize post-link h4">read more...</a>
+              <h4>02/22/2018</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of post -->
+
+        <!-- post -->
+        <div class="col-md-6 col-lg-4 my-3">
+          <div class="card">
+            <img
+              src="img/projects-water-1.jpeg"
+              class="card-img-top"
+              alt="coffee"
+            />
+            <h6 class="corner-text mb-0 px-3">New</h6>
+            <h1 class="my-2 text-capitalize">post name</h1>
+            <p class="lead text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum id
+              ab, voluptas facere odio quibusdam.
+            </p>
+            <hr class="mb-0" />
+            <div class="card-footer d-flex justify-content-between px-0">
+              <a href="#" class="text-capitalize post-link h4">read more...</a>
+              <h4>02/22/2018</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of post -->
+      </div>
+    </section>
+
+    <!-- end of post section -->
+
+    <!-- Contact Form -->
+    <section id="contact-form" class="py-5">
+      <div class="container py-5">
+        <div class="row height-30 align-items-center">
+          <div class="col-md-8 mx-auto text-center">
+            <h1 class="text-capitalize display-3">contact me</h1>
+            <form action="#" class="form d-flex align-items-baseline">
+              <input
+                type="text"
+                class="form-control form-control-lg m-2"
+                id="name"
+                placeholder="your email here...."
+              />
+              <button
+                type="submit"
+                class="btn btn-lg btn-width text-capitalize"
+              >
+                Submit here
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Of Contact Form -->
+
+    <!-- values -->
+    <section id="values" class="py-5">
+        <!-- tittle -->
+        <div class="row title mb-5">
+          <div class="col text-center">
+            <h1 class="text-uppercase">my values</h1>
+            <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+            <a href="#" class="mb-0">
+              <i class="fas fa-rocket"></i>
+            </a>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <!-- end of tittle -->
+  
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-lg-4 value text-center my-3">
+              <span class="value-icon">
+                <i class="fas fa-utensils fa-fw"></i>
+              </span>
+              <span class="value-number">1</span>
+              <h1 class="my-2 text-uppercase">eat</h1>
+            </div>
+  
+            <div class="col-sm-6 col-lg-4 value text-center my-3">
+              <span class="value-icon">
+                <i class="fas fa-code fa-fw"></i>
+              </span>
+              <span class="value-number">2</span>
+              <h1 class="my-2 text-uppercase">code</h1>
+            </div>
+  
+            <div class="col-sm-6 col-lg-4 value text-center my-3">
+              <span class="value-icon">
+                <i class="fas fa-bed fa-fw"></i>
+              </span>
+              <span class="value-number">3</span>
+              <h1 class="my-2 text-uppercase">sleep</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of values -->
+  
+      <!-- customer reviews -->
+  
+      <section id="reviews">
+        <div class="row">
+          <div class="col py-5">
+            <div id="customer-slider" class="carousel slide" data-bs-ride="carousel">
+              <!-- indicators -->
+              <ol class="carousel-indicators">
+                <li
+                  class="active"
+                  data-bs-target="#customer-slider"
+                  data-bs-slide-to="0"
+                ></li>
+                <li data-bs-target="#customer-slider" data-bs-slide-to="1"></li>
+                <li data-bs-target="#customer-slider" data-bs-slide-to="2"></li>
+              </ol>
+              <!-- indicators -->
+              <div class="carousel-inner">
+                <div class="carousel-item active py-5">
+                  <div class="container text-center col-10 col-sm-8 mx-auto">
+                    <img
+                      src="img/banner-1.jpeg"
+                      width="150px"
+                      alt=""
+                      class="img-fluid rounded-circle"
+                    />
+                    <div class="customer-text">
+                      <h3 class="text-capitalize my-2">customer name</h3>
+                      <h4 class="text-capitalize">company</h4>
+                      <p class="lead">
+                        <span>
+                          <i class="fas fa-quote-left mr-2"></i>
+                        </span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Possimus corporis laboriosam nostrum quae mollitia
+                        perferendis.
+                      </p>
+                      <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="carousel-item py-5">
+                  <div class="container text-center col-10 col-sm-8 mx-auto">
+                    <img
+                      src="img/banner-1.jpeg"
+                      width="150px"
+                      alt=""
+                      class="img-fluid rounded-circle"
+                    />
+                    <div class="customer-text">
+                      <h3 class="text-capitalize my-2">customer name</h3>
+                      <h4 class="text-capitalize">company</h4>
+                      <p class="lead">
+                        <span>
+                          <i class="fas fa-quote-left mr-2"></i>
+                        </span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Possimus corporis laboriosam nostrum quae mollitia
+                        perferendis.
+                      </p>
+                      <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="carousel-item py-5">
+                  <div class="container text-center col-10 col-sm-8 mx-auto">
+                    <img
+                      src="img/banner-1.jpeg"
+                      width="150px"
+                      alt=""
+                      class="img-fluid rounded-circle"
+                    />
+                    <div class="customer-text">
+                      <h3 class="text-capitalize my-2">customer name</h3>
+                      <h4 class="text-capitalize">company</h4>
+                      <p class="lead">
+                        <span>
+                          <i class="fas fa-quote-left mr-2"></i>
+                        </span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Possimus corporis laboriosam nostrum quae mollitia
+                        perferendis.
+                      </p>
+                      <div class="ratings">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <a
+                href="#customer-slider"
+                class="carousel-control-prev"
+                role="button"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+  
+              <a
+                href="#customer-slider"
+                class="carousel-control-next"
+                role="button"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- end of customer reviews -->
+  
+      <!-- team -->
+      <section id="team" class="py-5">
+        <div class="container">
+          <!-- tittle -->
+          <div class="row title mb-5">
+            <div class="col text-center">
+              <h1 class="text-uppercase">my comrades</h1>
+              <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+              <a href="#" class="mb-0">
+                <i class="far fa-check-square"></i>
+              </a>
+              <div class="title-underline"></div>
+            </div>
+          </div>
+          <!-- end of tittle -->
+  
+          <div class="row">
+            <article class="team-member col-sm-6 col-lg-4 my-3">
+              <div class="member-container">
+                <img
+                  src="img/banner-1.jpeg"
+                  alt=""
+                  class="img-fluid team-image"
+                />
+                <div class="member-info d-flex justify-content-around">
+                  <div class="member-text">
+                    <h3 class="text-capitalize">comrade</h3>
+                    <h5 class="text-capitalize text-muted">web developer</h5>
+                    <div class="team-icons">
+                      <a href="#" class="mr-2">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="member-icon align-self-center">
+                    <a href="#">
+                      <i class="fas fa-plus-square"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+  
+            <article class="team-member col-sm-6 col-lg-4 my-3">
+              <div class="member-container">
+                <img
+                  src="img/banner-2.jpeg"
+                  alt=""
+                  class="img-fluid team-image"
+                />
+                <div class="member-info d-flex justify-content-around">
+                  <div class="member-text">
+                    <h3 class="text-capitalize">comrade</h3>
+                    <h5 class="text-capitalize text-muted">web developer</h5>
+                    <div class="team-icons">
+                      <a href="#" class="mr-2">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="member-icon align-self-center">
+                    <a href="#">
+                      <i class="fas fa-plus-square"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+  
+            <article class="team-member col-sm-6 col-lg-4 my-3">
+              <div class="member-container">
+                <img
+                  src="img/banner-3.jpeg"
+                  alt=""
+                  class="img-fluid team-image"
+                />
+                <div class="member-info d-flex justify-content-around">
+                  <div class="member-text">
+                    <h3 class="text-capitalize">comrade</h3>
+                    <h5 class="text-capitalize text-muted">web developer</h5>
+                    <div class="team-icons">
+                      <a href="#" class="mr-2">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+  
+                      <a href="#" class="mx-2">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+  
+                  <div class="member-icon align-self-center">
+                    <a href="#">
+                      <i class="fas fa-plus-square"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- end of team -->
+  
+      <!-- numbers -->
+      <section id="numbers">
+        <div class="container-fluid no-padding">
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 text-center number py-3">
+              <span><i class="fas fa-user fa-3x"></i></span>
+              <h4 class="mt-3">1234</h4>
+  
+              <h3 class="text-capitalize">users</h3>
+            </div>
+  
+            <div class="col-sm-6 col-lg-3 text-center number py-3">
+              <span><i class="fas fa-download fa-3x"></i></span>
+              <h4 class="mt-3">1234</h4>
+  
+              <h3 class="text-capitalize">downloads</h3>
+            </div>
+  
+            <div class="col-sm-6 col-lg-3 text-center number py-3">
+              <span><i class="fas fa-share-alt fa-3x"></i></span>
+              <h4 class="mt-3">1234</h4>
+  
+              <h3 class="text-capitalize">shares</h3>ss</h3>
+            </div>
+  
+            <div class="col-sm-6 col-lg-3 text-center number py-3">
+              <span><i class="fas fa-eye fa-3x"></i></span>
+              <h4 class="mt-3">1234</h4>
+  
+              <h3 class="text-capitalize">views</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- end of numbers -->
+  
+      <!-- contact-form -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row height-60 align-items-baseline">
+            <div class="col-lg-6 col-sm-10 mx-auto my-3">
+              <div class="card text-center">
+                <div class="card-header text-center text-uppercase">
+                  <h1 class="text-uppercase">contact form</h1>
+                </div>
+                <div class="card-body">
+                  <form action="#">
+                    <div class="input-group my-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="input-text"><i class="fas fa-user"></i></span>
+                      </div>
+                      <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Enter your name here">
+                    </div>
+  
+                    <div class="input-group my-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="input-text"><i class="fas fa-phone"></i></span>
+                      </div>
+                      <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Enter your phone number here">
+                    </div>
+  
+                    <div class="input-group my-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="input-text"><i class="fas fa-envelope"></i></span>
+                      </div>
+                      <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Enter your email here">
+                    </div>
+  
+                    <div class="input-group my-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="input-text"><i class="fas fa-users"></i></span>
+                      </div>
+                      <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Enter your username here">
+                    </div>
+  
+                    <button class="btn btn-block btn-lg text-uppercase contact-btn">
+                      <i class="far fa-hand-point-right mr-2"></i>click here
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 d-none d-lg-block text-center mb-5 align-self-center">
+              <img src="img/banner-1.jpeg" alt="images" class="img-fluid rounded">
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- end of contact-form -->
+  
+      <!-- footer -->
+      <footer class="container-fluid py-2 px-3">
+        <div class="row">
+          <div class="col d-flex justify-content-between align-items-baseline">
+            <div class="footer-icons">
+              <a href="#" class="mx-2">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="mx-2">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="mx-2">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="mx-2">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+            <h5 class="text-capitaize">&copy;2021 copyright: Coder Anish Gurung</h5>
+          </div>
+        </div>
+      </footer>
+      <!-- end of footer -->
+
+    <!-- modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <!-- modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-capitalize">video example</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- modal body -->
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/mwfkNDztMSs"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of modal -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- images loaded -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!-- Isotype filtering -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <!-- my scripts -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
